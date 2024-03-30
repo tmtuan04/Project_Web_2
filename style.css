@@ -1,11 +1,6 @@
 body {
-    /* 
-    1. font-family: phải cho vào trong " "
-    2. Cái thứ 3 là bottom
-    */
     font-family: "Poppins", sans-serif;
     margin: 50px 50px 0 50px;
-    /* Đoạn flex này cũng chưa hiểu lắm vì chưa học */
     display: flex;
     flex-direction: column;
     min-height: 95vh;
@@ -31,15 +26,11 @@ footer {
     padding: 0px;
 }
 
-/* lớp này đại diện cho ảnh trong mỗi bên trái và phải => nó sẽ luôn ở bên trái */
-
 .tile-image {
     height: 200px;
     float: left;
     margin-right: 30px;
 }
-
-/* Đoạn card này mình cũng chưa hiểu lắm */
 
 .card {
     width: 45%;
@@ -56,8 +47,6 @@ footer {
 .creative {
     color: midnightblue;
 }
-
-/* Đoạn này mình cũng chưa hiểu lắm */
 
 @media (max-width: 680px) {
     .logo {
