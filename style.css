@@ -1,0 +1,85 @@
+body {
+    /* 
+    1. font-family: phải cho vào trong " "
+    2. Cái thứ 3 là bottom
+    */
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    /* Đoạn flex này cũng chưa hiểu lắm vì chưa học */
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main {
+    flex: 1;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: right;
+    color: blueviolet;
+}
+
+.logo {
+    width: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* lớp này đại diện cho ảnh trong mỗi bên trái và phải => nó sẽ luôn ở bên trái */
+
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Đoạn card này mình cũng chưa hiểu lắm */
+
+.card {
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.creative {
+    color: midnightblue;
+}
+
+/* Đoạn này mình cũng chưa hiểu lắm */
+
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
